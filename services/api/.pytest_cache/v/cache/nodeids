@@ -1,0 +1,18 @@
+[
+  "tests/test_api.py::test_create_prediction_invalid_confidence",
+  "tests/test_api.py::test_create_prediction_missing_fields",
+  "tests/test_api.py::test_create_prediction_valid",
+  "tests/test_api.py::test_list_predictions_empty",
+  "tests/test_api.py::test_list_predictions_filter_by_status",
+  "tests/test_api.py::test_list_predictions_with_data",
+  "tests/test_api.py::test_resolve_prediction_already_resolved",
+  "tests/test_api.py::test_resolve_prediction_not_found",
+  "tests/test_api.py::test_resolve_prediction_valid",
+  "tests/test_api.py::test_root_endpoint",
+  "tests/test_api.py::test_stats_leaderboard_empty",
+  "tests/test_api.py::test_stats_leaderboard_with_data",
+  "tests/test_scoring.py::test_brier_score_correct_calculation",
+  "tests/test_scoring.py::test_brier_score_edge_cases",
+  "tests/test_scoring.py::test_brier_score_invalid_outcome",
+  "tests/test_scoring.py::test_brier_score_invalid_probability"
+]
